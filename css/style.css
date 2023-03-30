@@ -1,0 +1,134 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav li {
+    margin-left: 1rem;
+  }
+  
+  header nav li:first-child {
+    margin-left: 0;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    margin: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  section ul {
+    list-style: disc;
+    margin-left: 2rem;
+  }
+
+ 
+  .scale {
+    max-width: 80%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Estilos para el formulario de contacto */
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border-color:#cccccc;
+  }
+  
+  input[type="submit"] {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Estilos para pantallas de menos de 768px de ancho */
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    header h1 {
+      margin-bottom: 1rem;
+    }
+  
+    header nav {
+      margin-top: 1rem;
+    }
+  
+    section h2 {
+      font-size: 1.2rem;
+    }
+  }
