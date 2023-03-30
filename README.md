@@ -1,2 +1,2 @@
-# sitio-web-java
-Sitio web para aprender Java usando las tecnologías HTML5 y CSS3
+# Aprendiendo Java
+Sitio web para aprender Java desarollado con las tecnologías HTML5 y CSS3
