@@ -9,24 +9,33 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
-    color: #333;
   }
   
   /* Estilos para el encabezado */
   header {
     background-color: #007bff;
     color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    width: 100%;
+    margin: auto;
+    overflow:hidden;
   }
-  
+
   header h1 {
     font-size: 2rem;
     margin: 0;
   }
-  
+    
   header nav ul {
     list-style: none;
     margin: 0;
@@ -34,10 +43,10 @@
     display: flex;
   }
   
-  header nav li {
+  header nav li {     
     margin-left: 1rem;
   }
-  
+ 
   header nav li:first-child {
     margin-left: 0;
   }
@@ -50,6 +59,7 @@
   
   /* Estilos para el contenido principal */
   main {
+    padding-top: 80px;
     margin: 2rem;
   }
   
@@ -58,6 +68,7 @@
   }
   
   section h2 {
+    scroll-margin-top: 100px;
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
