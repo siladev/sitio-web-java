@@ -1,2 +1,2 @@
 # Aprendiendo Java
-Sitio web para aprender Java desarollado con las tecnologías HTML5 y CSS3
+Sitio web para aprender Java desarollado con las tecnologías HTML5, CSS3, JS y Bootstrap.
